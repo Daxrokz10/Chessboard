@@ -1,0 +1,26 @@
+body{
+    background-image: url(./chessbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    margin: 0;
+}
+.white{
+    background-color: white;
+}
+.black{
+    background-color: black;
+}
+.square{
+    height: 50px;
+    width: 50px;
+    float: right;
+
+}
+.board{
+    margin-left: 470px;
+    margin-top: 100px;
+    width: 400px;
+    height: 400px;
+    border: 1px solid green;
+}
