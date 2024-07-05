@@ -1,1 +1,1 @@
-link- https://6686ca4bb0d22936583b8c20--joyful-cucurucho-f22b37.netlify.app/
+link- https://daksh-chessboard.netlify.app/
