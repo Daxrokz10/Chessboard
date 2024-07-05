@@ -23,5 +23,7 @@ body{
     margin-top: 100px;
     width: 400px;
     height: 400px;
-    border: 3px solid rgb(0, 0, 0);
+    outline: none;
+    border-color: #830fe2;
+    box-shadow: 0 0 50px #cbee03;
 }
