@@ -47,3 +47,19 @@ body{
     margin: 720px;
   
 }
+@media screen and (max-width: 1366px)
+{
+    .column-coordinates{
+        margin-left: 33.3%;
+        margin-top: 100px;
+    }
+    .row-coordinates{
+        float: left;
+        margin-top: -30%;
+    }
+    .coordinatey{
+        font-size: 30px;
+        margin: 455px;
+      
+    }
+}
