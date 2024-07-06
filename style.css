@@ -60,6 +60,38 @@ body{
     .coordinatey{
         font-size: 30px;
         margin: 450px;
+    }
+}
+@media screen and (max-width:500px){
+    .square{
+        height: 50px;
+        width: 50px;
+        float: right;
+    }
+    .board{
+        margin-left: 10px;
+        width: 400px;
+        height: 400px;
+        outline: none;
+        border-color: #830fe2;
+        box-shadow: 0 0 100px #da0959;
+    }
+    .column-coordinates{
+        margin-top: 100px;
+        margin-left: 4px;
+    
+    }
+    .coordinatex{
+        font-size: 25px;
+        margin: 0 19px;
+    }
+    .row-coordinates{
+        float: left;
+        margin-top: -21%;
+    }
+    .coordinatey{
+        font-size: 30px;
+        margin: 720px;
       
     }
 }
