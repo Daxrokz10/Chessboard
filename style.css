@@ -23,15 +23,12 @@ body{
     height: 400px;
     outline: none;
     border-color: #830fe2;
-    box-shadow: 0 0 50px #cbee03;
-}
-.logo{
-
+    box-shadow: 0 0 100px #da0959;
 }
 .logotext{
     text-align: center;
     margin-top: 100px;
     font-family:monospace;
     font-size: 60px;
-    
+    font-style:italic;
 }
