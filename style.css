@@ -30,18 +30,17 @@ body{
     font-style:italic;
 }
 .column-coordinates{
-    margin-left: 730px;
+    margin-left: 38.25%;
     margin-top: 100px;
-    float: none;
+
 }
 .coordinatex{
     font-size: 30px;
     margin: 0 19px;
 }
 .row-coordinates{
-    display: inline-block;
     float: left;
-    margin-top: -410px;
+    margin-top: -21%;
 }
 .coordinatey{
     font-size: 30px;
