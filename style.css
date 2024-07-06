@@ -2,8 +2,6 @@ body{
     background-image: url(./chessbg.png);
     background-repeat: no-repeat;
     background-size: cover;
-    
-
 }
 .white{
     background-color: white;
@@ -18,7 +16,6 @@ body{
 }
 .board{
     margin: auto;
-    margin-top: 150px;
     width: 400px;
     height: 400px;
     outline: none;
@@ -31,4 +28,23 @@ body{
     font-family:monospace;
     font-size: 60px;
     font-style:italic;
+}
+.column-coordinates{
+    margin-left: 730px;
+    margin-top: 100px;
+    float: none;
+}
+.coordinatex{
+    font-size: 30px;
+    margin: 0 19px;
+}
+.row-coordinates{
+    display: inline-block;
+    float: left;
+    margin-top: -410px;
+}
+.coordinatey{
+    font-size: 30px;
+    margin: 720px;
+  
 }
