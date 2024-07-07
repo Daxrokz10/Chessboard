@@ -32,6 +32,7 @@ body{
 .column-coordinates{
     margin-left: 38.25%;
     margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
 
 }
 .coordinatex{
@@ -41,6 +42,7 @@ body{
 .row-coordinates{
     float: left;
     margin-top: -21%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .coordinatey{
     font-size: 30px;
@@ -49,8 +51,12 @@ body{
 }
 @media screen and (max-width: 1366px)
 {
+    .coordinatex{
+        font-size: 28px;
+        margin: 0 17px;
+    }
     .column-coordinates{
-        margin-left: 33.3%;
+        margin-left: 33.9%;
         margin-top: 100px;
     }
     .row-coordinates{
@@ -59,7 +65,7 @@ body{
     }
     .coordinatey{
         font-size: 30px;
-        margin: 450px;
+        margin: 440px;
     }
 }
 @media screen and (max-width:500px){
