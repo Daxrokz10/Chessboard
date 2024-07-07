@@ -20,11 +20,11 @@ body{
     height: 400px;
     outline: none;
     border-color: #830fe2;
-    box-shadow: 0 0 100px #da0959;
+    box-shadow: 0 0 1000px #00f884;
 }
 .logotext{
     text-align: center;
-    margin-top: 100px;
+    margin-top: 30px;
     font-family:monospace;
     font-size: 60px;
     font-style:italic;
@@ -38,6 +38,7 @@ body{
 .coordinatex{
     font-size: 30px;
     margin: 0 19px;
+    color: rgb(56, 56, 56);
 }
 .row-coordinates{
     float: left;
@@ -47,7 +48,7 @@ body{
 .coordinatey{
     font-size: 30px;
     margin: 720px;
-  
+    color: rgb(56, 56, 56);
 }
 @media screen and (max-width: 1366px)
 {
@@ -64,8 +65,8 @@ body{
         margin-top: -30%;
     }
     .coordinatey{
-        font-size: 30px;
-        margin: 440px;
+        font-size: 29px;
+        margin: 450px;
     }
 }
 @media screen and (max-width:500px){
