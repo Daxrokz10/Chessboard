@@ -1,18 +1,20 @@
 body{
-    background-image: url(./chessbg.png);
+    background-image: linear-gradient(navy,rgb(180, 24, 19),orange),url(./chessbg.png);
     background-repeat: no-repeat;
     background-size: cover;
+    backdrop-filter: blur(4px);
 }
 .white{
-    background-color: white;
+    background-color: rgb(255, 255, 255);
 }
 .black{
-    background-color: #74994a;
+    background-color: rgba(128, 167, 83, 0.002);
 }
 .square{
     height: 50px;
     width: 50px;
     float: right;
+
 }
 .board{
     margin: auto;
@@ -20,7 +22,8 @@ body{
     height: 400px;
     outline: none;
     border-color: #830fe2;
-    box-shadow: 0 0 1000px #00f884;
+    box-shadow: 0 0 1000px #f89500;
+
 }
 .logotext{
     text-align: center;

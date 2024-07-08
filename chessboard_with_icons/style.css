@@ -1,0 +1,108 @@
+body{
+    background-image: linear-gradient(navy,rgb(180, 24, 19),orange),url(./chessbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+}
+.white{
+    background-color: rgb(255, 255, 255);
+}
+.black{
+    background-color: rgba(128, 167, 83, 0.002);
+}
+.square{
+    height: 50px;
+    width: 50px;
+    float: right;
+
+}
+.board{
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    outline: none;
+    border-color: #830fe2;
+    box-shadow: 0 0 1000px #f89500;
+
+}
+.logotext{
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    
+}
+.column-coordinates{
+    margin-left: 38.25%;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.coordinatex{
+    font-size: 30px;
+    margin: 0 19px;
+    color: rgb(56, 56, 56);
+}
+.row-coordinates{
+    float: left;
+    margin-top: -21%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.coordinatey{
+    font-size: 30px;
+    margin: 720px;
+    color: rgb(56, 56, 56);
+}
+@media screen and (max-width: 1366px)
+{
+    .coordinatex{
+        font-size: 28px;
+        margin: 0 17px;
+    }
+    .column-coordinates{
+        margin-left: 33.9%;
+        margin-top: 100px;
+    }
+    .row-coordinates{
+        float: left;
+        margin-top: -30%;
+    }
+    .coordinatey{
+        font-size: 29px;
+        margin: 450px;
+    }
+}
+@media screen and (max-width:500px){
+    .square{
+        height: 50px;
+        width: 50px;
+        float: right;
+    }
+    .board{
+        margin-left: 10px;
+        width: 400px;
+        height: 400px;
+        outline: none;
+        border-color: #830fe2;
+        box-shadow: 0 0 100px #da0959;
+    }
+    .column-coordinates{
+        margin-top: 100px;
+        margin-left: 4px;
+    
+    }
+    .coordinatex{
+        font-size: 25px;
+        margin: 0 19px;
+    }
+    .row-coordinates{
+        float: left;
+        margin-top: -21%;
+    }
+    .coordinatey{
+        font-size: 30px;
+        margin: 720px;
+      
+    }
+}
