@@ -24,10 +24,11 @@ body{
 }
 .logotext{
     text-align: center;
-    margin-top: 30px;
-    font-family:monospace;
+    margin-top: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
     font-size: 60px;
-    font-style:italic;
+    
 }
 .column-coordinates{
     margin-left: 38.25%;
