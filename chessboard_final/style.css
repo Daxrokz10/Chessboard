@@ -64,10 +64,13 @@ body {
 
 @keyframes textAnimation {
     0% {
-        color: #fff;
+        color: #16037e;
+    }
+    50% {
+        color: orange;
     }
     100% {
-        color: #f89500;
+        color: #f82500;
     }
 }
 
