@@ -1,0 +1,88 @@
+body {
+    background-image: linear-gradient(navy, rgb(180, 24, 19), orange), url(./chessbg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    animation: backgroundAnimation 10s infinite alternate;
+}
+
+@keyframes backgroundAnimation {
+    0% {
+        background-position: left top;
+    }
+    100% {
+        background-position: right bottom;
+    }
+}
+
+.board-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(8, 50px);
+    grid-template-rows: repeat(8, 50px);
+    gap: 0;
+    margin: 20px 0;
+    outline: 2px solid #830fe2;
+    box-shadow: 0 0 100px #f89500;
+    animation: boardAnimation 5s infinite alternate;
+}
+
+@keyframes boardAnimation {
+    0% {
+        box-shadow: 0 0 100px #f89500;
+    }
+    100% {
+        box-shadow: 0 0 50px #f89500;
+    }
+}
+
+.square {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: transform 0.3s;
+}
+
+.square:hover {
+    transform: scale(1.1);
+}
+
+.black {
+    background-color: #000;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.logotext {
+    text-align: center;
+    margin-top: 25px;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    animation: textAnimation 5s infinite alternate;
+}
+
+@keyframes textAnimation {
+    0% {
+        color: #fff;
+    }
+    100% {
+        color: #f89500;
+    }
+}
+
+.coordinatex, .coordinatey {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 20px;
+    color: white;
+    margin: 5px;
+}

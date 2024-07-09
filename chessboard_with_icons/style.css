@@ -31,7 +31,18 @@ body{
     font-family: "Bebas Neue", sans-serif;
     font-weight: 400;
     font-size: 60px;
-    
+    animation: textAnimation 5s infinite alternate;
+}
+@keyframes textAnimation {
+    0% {
+        color: #16037e;
+    }
+    50% {
+        color: orange;
+    }
+    100% {
+        color: #f82500;
+    }
 }
 .column-coordinates{
     margin-left: 38.25%;
