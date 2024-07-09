@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(navy, rgb(180, 24, 19), orange), url(./chessbg.png);
+    background-image: linear-gradient(navy, rgb(180, 24, 19), orange);
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(4px);
@@ -26,20 +26,11 @@ body {
     grid-template-columns: repeat(8, 50px);
     grid-template-rows: repeat(8, 50px);
     gap: 0;
-    margin: 20px 0;
-    outline: 2px solid #830fe2;
-    box-shadow: 0 0 100px #f89500;
-    animation: boardAnimation 5s infinite alternate;
+    margin: 400px 0;
+    box-shadow: 0 0 1000px #f89500;
 }
 
-@keyframes boardAnimation {
-    0% {
-        box-shadow: 0 0 100px #f89500;
-    }
-    100% {
-        box-shadow: 0 0 50px #f89500;
-    }
-}
+
 
 .square {
     width: 50px;
@@ -55,11 +46,11 @@ body {
 }
 
 .black {
-    background-color: #000;
+    background-color: rgb(0, 0, 0,0.6);
 }
 
 .white {
-    background-color: #fff;
+    background-color: rgb(255, 255, 255,0.2);
 }
 
 .logotext {
@@ -85,4 +76,10 @@ body {
     font-size: 20px;
     color: white;
     margin: 5px;
+}
+@media screen and (max-width: 1366px)
+{
+ .board{
+    margin: 36px 0;
+ }
 }
