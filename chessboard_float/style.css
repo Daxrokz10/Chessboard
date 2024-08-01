@@ -14,6 +14,16 @@
         #f9f871
     );
 }
+.logotext{
+    margin-top: 2%;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 60px;
+    color:#fff;
+    text-shadow: 0px 5px 10px rgba(0,0,0,1);
+    background: rgba(252, 252, 252, 0.2);
+}
 body{
     background-image:var(--gradient);
     background-attachment: fixed;
@@ -28,8 +38,8 @@ body{
     100%{background-position: right;}
 }
 .board{
-    margin-left: 35%;
-    margin-top: 10%;
+    margin-left: 36%;
+    margin-top: 5%;
     animation: board-slide 4s ease-in;
 }
 @keyframes board-slide{
@@ -44,6 +54,8 @@ body{
     height: 50px;
     background-color: black;
     float: left;
+    text-align: center;
+    padding-top: 8px;
 }
 .white{
     float: left;
@@ -51,6 +63,8 @@ body{
     height: 50px;
     background-color: rgb(255,255,255,0.3);
     backdrop-filter: blur;
+    text-align: center;
+    padding-top: 8px;
 }
 .clear{
     clear: both;
