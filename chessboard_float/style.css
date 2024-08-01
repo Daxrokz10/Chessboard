@@ -21,7 +21,7 @@ body{
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: left;
-    animation: bg-animation 10s infinite alternate;
+    animation: bg-animation 5s infinite alternate;
 }
 @keyframes bg-animation{
     0%{background-position: left;}
@@ -30,6 +30,14 @@ body{
 .board{
     margin-left: 35%;
     margin-top: 10%;
+    animation: board-slide 4s ease-in;
+}
+@keyframes board-slide{
+    0%{transform: translateX(-500px) rotate(90deg);}
+    10%{transform: rotate(90deg);}
+    70%{transform: translateX(0px);}
+    90%{transform: rotate(20deg);}
+    100%{transform: translateX(0px);}
 }
 .black{
     width: 50px;
