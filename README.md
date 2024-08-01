@@ -5,3 +5,6 @@ link for chess board with coordinates- https://668ccad7d681543538ca785f--preciou
 
 
 link for final chess board- https://668cca60d681543538ca761f--delightful-speculoos-d54a82.netlify.app/
+
+
+link for chess board with float and animations- https://66ab3aa3521aed9e139ecd9c--quiet-kitten-7beebe.netlify.app/
